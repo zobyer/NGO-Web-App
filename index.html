@@ -50,12 +50,13 @@
 
         }
 
-        /* .img-content {
+        .img-content {
             margin-top: 53px !important;
-        } */
+        }
 
-        /* @media only screen and (max-width: 1278px) {
+        @media only screen and (max-width: 1278px) {
 
+            /* styles for browsers larger than 960px; */
             .img-content {
                 margin-top: 78px !important;
             }
@@ -64,6 +65,7 @@
 
         @media only screen and (max-width: 1220px) {
 
+            /* styles for browsers larger than 960px; */
             .img-content {
                 margin-top: 100px !important;
             }
@@ -72,19 +74,20 @@
 
         @media only screen and (max-width: 991px) {
 
+            /* styles for browsers larger than 960px; */
             .img-content {
                 margin-top: 43px !important;
             }
 
-        } */
+        }
     </style>
 </head>
 
 <body>
     <section>
 
-        <div class="position-sticky">
-            <nav class=" navbar navbar-expand-lg navigation" id="ftco-navbar"
+        <div>
+            <nav class="fixed-top navbar navbar-expand-lg navigation" id="ftco-navbar"
                 style="background-color: #B2BEB5;">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
@@ -99,7 +102,7 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">About</a>
-                                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                <div class="dropdown-menu" aria-labelledby="dropdown04" style="background-color: #B2BEB5;">
                                     <a class="dropdown-item" href="#">Eligibility of NEM Application</a>
                                     <a class="dropdown-item" href="#">Net Metering Online Calculator for Assesment</a>
                                     <a class="dropdown-item" href="#">Video Tutorial for Calculator</a>
@@ -110,7 +113,7 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">Pre-Assesment</a>
-                                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                <div class="dropdown-menu" aria-labelledby="dropdown04" style="background-color: #B2BEB5;">
                                     <a class="dropdown-item" href="#">Technical Documents & Links</a>
                                     <a class="dropdown-item" href="#">Financing for Rooftop Solar</a>
                                     <a class="dropdown-item" href="#">Policy Documents</a>
@@ -125,7 +128,7 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">Necessary Information</a>
-                                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                <div class="dropdown-menu" aria-labelledby="dropdown04" style="background-color: #B2BEB5;">
                                     <a class="dropdown-item" href="#">Solar Module</a>
                                     <a class="dropdown-item" href="#">Grid-Tied inverter</a>
                                     <a class="dropdown-item" href="#">List of Service Providers, Manufacturers, Traders
@@ -139,7 +142,7 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">Application process</a>
-                                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                <div class="dropdown-menu" aria-labelledby="dropdown04" style="background-color: #B2BEB5;">
                                     <a class="dropdown-item" href="#"></a>
                                     <a class="dropdown-item" href="#"></a>
                                     <a class="dropdown-item" href="#"></a>
@@ -149,7 +152,7 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">Additional Information</a>
-                                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                <div class="dropdown-menu" aria-labelledby="dropdown04" style="background-color: #B2BEB5;">
                                     <a class="dropdown-item" href="#"></a>
                                     <a class="dropdown-item" href="#"></a>
                                     <a class="dropdown-item" href="#"></a>
@@ -179,36 +182,40 @@
         </div>
     </section>
 
-    <div class="img-content" style="background-image: url(./images/bg1.jpg); height: 400px; background-repeat: no-repeat; background-size: cover;
+    <div class="img-content mt-5" style="background-image: url(./images/bg1.jpg); height: 400px; background-repeat: no-repeat; background-size: cover;
          ">
 
 
         <div class=""
-            style="width: 100%; height: 70%; display: flex; flex-direction: column; justify-content: space-evenly;">
+            style="width: 100%; height: 70%; display: flex; flex-direction: column; justify-content: space-between;">
 
-            <div class="row " style="margin-top: 80px !important;">
-                <div class="col-3">
+            <div class="row">
+                <div class="col-2">
                     <img src="./images/Gob_White.png" class="img-fluid" alt="..." height="300px" width="300">
                     <!-- <img src="./images/sreda_transparent.png" class="img-fluid" alt="..." height="100px" width="200px"> -->
                 </div>
-                <div class="col-5">
+                <div class="col-3">
                     <img src="./images/sreda_transparent.png" class="img-fluid" alt="..." height="100px" width="200px">
                 </div>
-                
-                <div class="col-4">
+                <div class="col-2">
+
+                </div>
+                <div class="col-3">
                     <img src="./images/Cooperation+GIZ [Converted].png" class="img-fluid " alt="..." height="300px"
                         width="300px">
                 </div>
-                
+                <div class="col-2">
+
+                </div>
             </div>
 
 
             <div class="text-center container">
-                <h1 class="" style="font-size: 2.5vw; font-weight: bolder; color: #C70039;">National Solar Help Desk Center
+                <h1 class="" style="font-size:2.5vw; font-weight: bolder; color: #C70039;">National Solar Help Desk Center
                 </h1>
-                <h4 class="" style="font-size: 1.5vw; color: #016235; font-weight: bold;">Sustainable and Renewable Energy
+                <h4 class="" style="font-size:1.5vw;color: #016235; font-weight: bolder;">Sustainable and Renewable Energy
                     Development Authority(SREDA)</h4>
-                <h4 class="" style="font-size: 1.5vm; color: #016235; font-weight: bold;">IEB Bhabam Level 9, Ramna, Dhaka
+                <h4 class="" style="font-size:1.5vw;color: #016235; font-weight: bolder;">IEB Bhabam Level 9, Ramna, Dhaka
                 </h4>
             </div>
         </div>
